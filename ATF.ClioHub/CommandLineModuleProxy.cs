@@ -82,7 +82,7 @@ namespace OpenCommand
                     {
                         var key = options[0].Trim('-').ToLowerInvariant();
                         var value = options[1];
-                        Console.WriteLine($"Recognized property {key} with value {value}");
+                        Console.WriteLine($"Recognized property <{key}> with value <{value}>");
                         _args[key] = value;
                     }
                 }
