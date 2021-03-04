@@ -46,16 +46,12 @@ namespace OpenCommand
             var types = assembly.GetTypes();
             foreach (var type in types)
             {
-                var attributes = type.GetCustomAttributes();
-                foreach (var attr in attributes)
+                var commands = type.GetCustomAttributes<Command>();
+                foreach (var command in commands)
                 {
-                    var command = attr as Command;
-                    if (command != null)
+                    if (command.Name == operation)
                     {
-                        if (command.Name == operation)
-                        {
-                            executor = (IExecutor)Activator.CreateInstance(type);
-                        }
+                        executor = (IExecutor)Activator.CreateInstance(type);
                     }
                 }
             }
