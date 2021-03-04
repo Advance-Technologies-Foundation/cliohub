@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleArgsTransition": {
+      "commandName": "Project",
+      "commandLineArgs": "operation=summ -p=test -v=value"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleArgsTransition": {
+      "commandName": "Project",
+      "commandLineArgs": "operation=test -stringValue=Hello -intValue=2 -booleanValue=true"
+    }
+  }
+}
