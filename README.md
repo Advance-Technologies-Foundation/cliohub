@@ -1,3 +1,3 @@
 # cliohub
 
-Проект плагинного консольного клиента для работы с экосистемой Creatio
+Console plugin client for Creatio platform
