@@ -6,7 +6,7 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <OutputPath>C:\Projects\GitHub\cliohub\bin\netcoreapp3.1\</OutputPath>
+    <OutputPath>..\bin\netcoreapp3.1\</OutputPath>
     <WarningLevel>5</WarningLevel>
   </PropertyGroup>
 

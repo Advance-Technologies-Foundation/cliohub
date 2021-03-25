@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>C:\Projects\GitHub\cliohub\bin\</OutputPath>
+    <OutputPath>..\bin</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
